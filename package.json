@@ -6,8 +6,7 @@
   "homepage": "https://KhanhDoHoang.github.io",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css --recursive",
-    "deploy": "gh-pages -d dist",
-    "clear": "rm -rf node_modules/gh-pages/.cache"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
