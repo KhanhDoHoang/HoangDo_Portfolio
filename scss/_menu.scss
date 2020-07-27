@@ -121,10 +121,13 @@
     text-decoration: none;
     word-spacing: 4px;
     line-height: 60px;
+    animation-name: changingcolor;
+    transition: width 2s;
     @include easeOut();
 
     &:hover {
       color: $secondary-color;
+      font-weight: 600;
     }
   }
 }

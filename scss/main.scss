@@ -1,6 +1,6 @@
 @import "func";
 @import "menu";
-
+@import url("https://fonts.googleapis.com/css?family=Barlow:800&display=swap");
 html {
   font-size: 10px;
 }
@@ -35,6 +35,21 @@ h3 {
     padding: 0.2rem 1rem;
     /*bottom then left and right */
     background: rgba(lighten($primary-color, 2), 0.5);
+    color: royalblue;
+    overflow: hidden;
+    background: linear-gradient(to right, yellow, orange 50%, white 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 4s ease-out;
+    text-decoration: none; // text decorations are clipped in WebKit browsers
+    &:hover {
+      background-position: 0 100%;
+      font-weight: 500;
+      font-size: large;
+    }
   }
 }
 
