@@ -14,6 +14,7 @@
     <title>My work here!</title>
   </head>
   <body>
+    <div id="vantaNET"></div>
     <header>
       <div class="menu-btn">
         <div class="btn-line"></div>
@@ -52,22 +53,69 @@
       </h1>
       <div class="projects">
         <div class="item">
-          <a href="#!">
-            <img src="img/project/project1.PNG" alt="Lithophane" />
+          <a href="Project1.html">
+            <img src="img/project/project1.png" alt="3D-Lithophane-Printing" />
           </a>
-          <a href="#" class="btn-light">
-            <i class="fas fa-eye"></i> Lithophane
+          <a href="Project1.html" class="btn-light">
+            <i class="fas fa-eye"></i> Lithophane Printing
           </a>
-          <a href="#" class="btn-dark"> <i class="fab fa-github"></i> Git </a>
+          <a
+            href="https://github.com/KhanhDoHoang/3D-Lithophane-Printing/tree/master"
+            class="btn-dark"
+          >
+            <i class="fab fa-github"></i> Git
+          </a>
         </div>
         <div class="item">
-          <a href="https://github.com/KhanhDoHoang/FlappyBird.git">
+          <a href="Project2.html">
             <img src="img/project/project3.png" alt="Flappy Bird" />
           </a>
-          <a href="#!" class="btn-light">
+          <a href="Project2.html" class="btn-light">
             <i class="fas fa-eye"></i> Flappy Bird
           </a>
           <a href="https://github.com/KhanhDoHoang/FlappyBird" class="btn-dark">
+            <i class="fab fa-github"></i> Git
+          </a>
+        </div>
+        <div class="item">
+          <a href="Project3.html">
+            <img src="img/project/6.jpg" alt="Student Register" />
+          </a>
+          <a href="Project3.html" class="btn-light">
+            <i class="fas fa-eye"></i> Student Register
+          </a>
+          <a
+            href="https://github.com/KhanhDoHoang/Student-Register"
+            class="btn-dark"
+          >
+            <i class="fab fa-github"></i> Git
+          </a>
+        </div>
+        <div class="item">
+          <a href="Project4.html">
+            <img src="img/project/5.PNG" alt="Sale Inventory" />
+          </a>
+          <a href="Project4.html" class="btn-light">
+            <i class="fas fa-eye"></i> Sales Inventory
+          </a>
+          <a
+            href="https://github.com/KhanhDoHoang/Sales-Inventory"
+            class="btn-dark"
+          >
+            <i class="fab fa-github"></i> Git
+          </a>
+        </div>
+        <div class="item">
+          <a href="Project5.html">
+            <img src="img/project/7.PNG" alt="Portfolio" />
+          </a>
+          <a href="Project5.html" class="btn-light">
+            <i class="fas fa-eye"></i> Portfolio
+          </a>
+          <a
+            href="https://github.com/KhanhDoHoang/HoangDo_Portfolio"
+            class="btn-dark"
+          >
             <i class="fab fa-github"></i> Git
           </a>
         </div>
@@ -79,5 +127,20 @@
     </footer>
 
     <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/tengbao/vanta@master/vendor/three.r95.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/tengbao/vanta@master/dist/vanta.net.min.js"></script>
+    <script>
+      VANTA.NET({
+        el: "#vantaNET",
+        mouseControls: true,
+        touchControls: true,
+        minHeight: 800.0,
+        minWidth: 200.0,
+        scale: 1.0,
+        scaleMobile: 1.0,
+        color: 0x3fffc4,
+        backgroundColor: 0x16153c,
+      });
+    </script>
   </body>
 </html>
