@@ -11,9 +11,10 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/main.css" />
-    <title>Contact me!</title>
+    <title>My work here!</title>
   </head>
   <body>
+    <div id="vantaNET"></div>
     <header>
       <div class="menu-btn">
         <div class="btn-line"></div>
@@ -32,10 +33,10 @@
           <li class="nav-item">
             <a href="about.html" class="nav-link">About me</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item current">
             <a href="work.html" class="nav-link">My work</a>
           </li>
-          <li class="nav-item current">
+          <li class="nav-item">
             <a href="contact.html" class="nav-link">Contact me!</a>
           </li>
         </ul>
@@ -44,37 +45,48 @@
 
     <main id="about">
       <h1 class="lg-heading">
-        Contact
-        <span class="text-secondary">Me</span>
+        My
+        <span class="text-secondary">Work</span>
       </h1>
-      <h2 class="sm-heading">
-        This is how to reach me...
-      </h2>
-      <div class="boxes">
-        <div>
-          <span class="text-secondary">
-            Email:
-          </span>
-          katievincy226@gmail.com
+      <h1 class="sm-heading">
+        And here is my project...
+      </h1>
+      <div class="projects">
+        <div class="item">
+          <a
+            href="https://github.com/KhanhDoHoang/FlappyBird"
+          >
+            <img src="img/project/5.PNG" alt="3D-Lithophane-Printing" />
+          </a>
+          <a href="#!" class="btn-light">
+            <i class="fas fa-eye"></i> Sales Inventory
+          </a>
+          <a
+            href="https://github.com/KhanhDoHoang/FlappyBird"
+            class="btn-dark"
+          >
+            <i class="fab fa-github"></i> Git
+          </a>
         </div>
-        <div>
-          <span class="text-secondary">
-            Phone:
-          </span>
-          +1 (343) 297-9076
-        </div>
-        <div>
-          <span class="text-secondary">
-            Linkedin:
-          </span>
-          https://www.linkedin.com/in/khanhdohoang/
-        </div>
-        <div>
-          <span class="text-secondary">
-            Download resume:
-          </span>
-          <a href="Resume.pdf" target="_self">Download my resume</a>
-        </div>
+        <div class="about-project">
+            <div class="work work-1">
+              <h3>Welcome to my Sales Inventory Project</h3>
+              <h4>Java, Big O Analysis, Merge Sort, Comparator. . .</h4>
+              <p style="width: 400px;">
+                During quarantine break, I had got a big idea
+                making my own song collections with file printing
+                album by album and songs in it. Now I started it
+                with some first steps with making an inventory 
+                storing thee different classification: Fruit, 
+                Vegetable and Preserve. Take input for specific classes,
+                sort based on item codes, print to file and read
+                data from file. 🤩
+                <br><br>
+                I am still on the way changing it with adding
+                expiry date with First in First out method for
+                every products for real-life alike system.
+              </p>
+            </div>
       </div>
     </main>
 

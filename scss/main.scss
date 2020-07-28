@@ -137,6 +137,45 @@ main {
   }
 }
 
+.about-project {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-areas:
+    "work1"
+    "work2"
+    "work3"
+    "work4";
+  grid-template-columns: 1fr;
+  width: 350px;
+
+  .work-1 {
+    grid-area: work1;
+  }
+
+  .work-2 {
+    grid-area: work2;
+  }
+
+  .work-3 {
+    grid-area: work3;
+  }
+
+  .work-4 {
+    grid-area: work4;
+  }
+
+  .work-5 {
+    grid-area: work5;
+  }
+
+  .work {
+    font-size: 15px;
+    background: lighten(($primary-color), 5);
+    padding: 0.5rem;
+    border-bottom: $secondary-color 5px solid;
+  }
+}
+
 //work/pro
 .projects {
   display: grid;
