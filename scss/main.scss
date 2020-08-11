@@ -146,7 +146,7 @@ main {
     "work3"
     "work4";
   grid-template-columns: 1fr;
-  width: 350px;
+  width: 300px;
 
   .work-1 {
     grid-area: work1;
@@ -179,7 +179,7 @@ main {
 //work/pro
 .projects {
   display: grid;
-  grid-gap: 0.7rem;
+  grid-gap: 0.5rem;
   grid-template-columns: repeat(3, 1fr);
 
   img {
