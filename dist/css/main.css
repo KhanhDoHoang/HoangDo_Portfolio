@@ -1,15 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Barlow:800&display=swap");
-#vantaNET {
-  position: absolute;
-  display: block;
-  min-width: 100%;
-  min-height: 100%;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  z-index: -1; }
-
 .menu-btn {
   position: absolute;
   z-index: 3;
@@ -134,6 +123,17 @@ body {
       height: 100%;
       z-index: -1; }
 
+#vantaNET {
+  position: absolute;
+  display: block;
+  min-width: 100%;
+  min-height: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1; }
+
 /* Heading */
 h1,
 h2,
@@ -227,7 +227,7 @@ main {
   grid-gap: 30px;
   grid-template-areas: "work1" "work2" "work3" "work4";
   grid-template-columns: 1fr;
-  width: 350px; }
+  width: 300px; }
   .about-project .work-1 {
     grid-area: work1; }
   .about-project .work-2 {
@@ -236,8 +236,6 @@ main {
     grid-area: work3; }
   .about-project .work-4 {
     grid-area: work4; }
-  .about-project .work-5 {
-    grid-area: work5; }
   .about-project .work {
     font-size: 15px;
     background: #2e1c4f;
@@ -246,7 +244,7 @@ main {
 
 .projects {
   display: grid;
-  grid-gap: 0.7rem;
+  grid-gap: 0.5rem;
   grid-template-columns: repeat(3, 1fr); }
   .projects img {
     width: 100%;

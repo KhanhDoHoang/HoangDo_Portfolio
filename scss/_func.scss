@@ -2,7 +2,7 @@ $primary-color: #23153c;
 $secondary-color: #eece1a;
 $show-home-image: true;
 $home-image: url(../img/1.jpg);
-$background-opacity: 0.8;
+$background-opacity: 0.85;
 
 @mixin easeOut {
   transition: all 0.5s ease-out;
@@ -27,18 +27,6 @@ $background-opacity: 0.8;
       }
     }
   }
-}
-
-#vantaNET {
-  position: absolute;
-  display: block;
-  min-width: 100%;
-  min-height: 100%;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  z-index: -1;
 }
 
 //Set color
